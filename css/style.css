@@ -1,0 +1,66 @@
+.header{
+	background-color: green;
+	height: 40px;
+}
+.footer{
+	background-color: yellow;
+}
+.left{
+	background-color: blue;
+	width: 100px;
+	float:left;
+
+}
+.main{
+	background-color: lightgreen;
+	width: 560px;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.right{
+	background-color: pink; 
+	width: 100px;
+	float:left;
+}
+
+.box{
+	background-color: red;
+	width: 800px;
+	margin: 0px auto;
+}
+#menu li a{
+	color: #000000; /*noņem krasu padding: c noklusējuma*/;
+	text-decoration: none; /*noņem pasvitrojumu*/
+}
+#menu li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+#menu {
+	position: relative;
+	top: 10px;
+}
+#menu :hover { 
+    background-color: #ffff99;
+}
+.active{
+	background-color: #ffff99;
+}
+ul{
+	background-color: blue;
+}
+li{
+	background-color: orange;
+}
+h4{
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
