@@ -1,0 +1,15 @@
+.header{
+	background-origin: orange;
+	width: 800px;
+}
+.main{
+	background-origin: blue;
+	width: 800px;
+}
+.footer{
+
+}
+.mainbow {
+	widows: 800px;
+	margin: 0px auto; 
+} 
