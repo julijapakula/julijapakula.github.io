@@ -1,15 +1,75 @@
-.header{
-	background-origin: orange;
+.mainb, .left, .main, .righ {
+	height: 100%;
+}
+.mainbox {
+	background-color: lightgrey;
 	width: 800px;
+	margin:  auto;
+	display: table;
+}
+.header{
+	background-color: lightpink;
+	height: 40px;
 }
 .main{
-	background-origin: blue;
-	width: 800px;
+	background-color: lightgreen;
+	width: 560px;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.left{
+	background-color: pink;
+	width: 100px;
+	float:left;
+}
+
+.right{
+	background-color: pink;
+	width: 100px;
+	float:left;
 }
 .footer{
-
+	background-color: lightgrey;
 }
-.mainbow {
-	widows: 800px;
-	margin: 0px auto; 
-} 
+
+.box{
+	background-color: bisque;
+	width: 800px;
+	margin:  auto;
+}
+#menu li a{
+	color: #000000; /*noņem krasu padding: c noklusējuma*/;
+	text-decoration: none; /*noņem pasvitrojumu*/
+}
+#menu li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+#menu {
+	position: relative;
+	top: 10px;
+}
+#menu :hover { 
+    background-color: #ffff99;
+}
+.active{
+	background-color: #ffff99;
+}
+ul{
+	background-color: blue;
+}
+li{
+	background-color: orange;
+}
+h4{
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
